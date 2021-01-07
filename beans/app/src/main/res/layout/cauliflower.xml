@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    //setting the background image
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cauliflower"
+        />
+    //declaring and creating the back button text view
+    //setting the size
+    //setting the Id to "back"
+    //setting the background of the button as well
+    <Button
+        android:id="@+id/back"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    //declaring and creating the home button text view
+    //setting the size
+    //setting the Id to "back"
+    //setting the background of the button as well
+    <Button
+        android:id="@+id/home"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:onClick="home"
+        android:text="Home"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    //declaring and creating the favourite button text view
+    //setting the size
+    //setting the Id to "favoraite"
+    //setting the background of the button as well
+    <Button
+        android:id="@+id/favoraite"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:text="Favourite"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="675dp" />
+
+</RelativeLayout>

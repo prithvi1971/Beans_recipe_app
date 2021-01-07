@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    //setting the background image
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-8dp"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beans" />
+    //declaring and creating the username text view
+    //setting the size
+    //setting the Id to "username"
+    //setting the background of the button as well
+    <EditText
+        android:layout_width="420dp"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/button_background"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textColorHint="#fff"
+        android:padding="10dp"
+        />
+    //declaring and creating the password text view
+    //setting the size
+    //setting the Id to "password"
+    //setting the background of the button as well
+    <EditText
+        android:id="@+id/password"
+        android:maxLines="1"
+        android:layout_width="420dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/button_background"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        />
+    //declaring and creating the retype password text view
+    //setting the size
+    //setting the Id to "retype_password"
+    //setting the background of the button as well
+    <EditText
+        android:id="@+id/retype_password"
+        android:maxLines="1"
+        android:layout_width="420dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="455dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/button_background"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Re-Type Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        />
+    //declaring and creating the back button text view
+    //setting the size
+    //setting the Id to "back"
+    //setting the background of the button as well
+    <Button
+        android:id="@+id/back"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/button_background"
+        android:text="Back"
+        android:onClick="back"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+    //declaring and creating the register button text view
+    //setting the size
+    //setting the Id to "register"
+    //setting the background of the button as well
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/button_background"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
